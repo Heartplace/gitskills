@@ -6,5 +6,3 @@ public class MaxHeap
    private ArrayList<Student> students;
    
    public MaxHeap(int capacity)
-   {
-      students = new ArrayList<Student>(capacity);
