@@ -8,16 +8,3 @@ public class MaxHeap
    public MaxHeap(int capacity)
    {
       students = new ArrayList<Student>(capacity);
-   }
-      
-   public MaxHeap(Collection<Student> collection)
-   {
-      students = new ArrayList<Student>(collection);
-      for(int i = size()/2; i >= 0; i--)
-      {
-         maxHeapify(i);
-      }
-   }
-   
-   public Student getMax()
-   
